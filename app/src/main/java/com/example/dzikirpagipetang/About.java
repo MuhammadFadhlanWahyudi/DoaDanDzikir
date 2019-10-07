@@ -19,6 +19,8 @@ public class About extends AppCompatActivity {
         setContentView(R.layout.activity_about);
         btnPembuat = findViewById(R.id.btnPembuat);
         getSupportActionBar().setTitle(getResources().getString(R.string.Tentang));
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+    
 
         btnPembuat.setOnClickListener(new View.OnClickListener() {
             @Override
