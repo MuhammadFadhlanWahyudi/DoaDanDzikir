@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".TentangPembuat"></activity>
-        <activity android:name=".About" />
+        <activity android:name=".About" >
+             <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+            </activity>
         <activity android:name=".DzikirSetelahSholat" />
         <activity android:name=".BacaanDoa" />
         <activity android:name=".DetailDoa" />
